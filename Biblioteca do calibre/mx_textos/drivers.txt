@@ -1,0 +1,2 @@
+sound pci:snd_hda_inter
+pci:ath5k

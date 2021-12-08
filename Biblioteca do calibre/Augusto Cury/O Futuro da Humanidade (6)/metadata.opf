@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">6</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">4aa7953f-d775-4e97-9342-59e6a085033e</dc:identifier>
+        <dc:title>O Futuro da Humanidade</dc:title>
+        <dc:creator opf:file-as="Cury, Augusto" opf:role="aut">Augusto Cury</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (2.50.1) [http://calibre-ebook.com]</dc:contributor>
+        <dc:date>2014-02-17T03:00:00+00:00</dc:date>
+        <dc:language>por</dc:language>
+        <dc:subject>Auto Ajuda</dc:subject>
+        <meta content="{&quot;Augusto Cury&quot;: &quot;&quot;}" name="calibre:author_link_map"/>
+        <meta content="2016-02-13T19:30:17.504023+00:00" name="calibre:timestamp"/>
+        <meta content="Futuro da Humanidade, O" name="calibre:title_sort"/>
+    </metadata>
+    <guide>
+        <reference href="cover.jpg" title="Capas" type="cover"/>
+    </guide>
+</package>

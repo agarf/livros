@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">10</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">8def0892-f2bb-4cfa-953c-aa312d74517d</dc:identifier>
+        <dc:title>As Veias Abertas da América Latina</dc:title>
+        <dc:creator opf:file-as="Galeano, Eduardo" opf:role="aut">Eduardo Galeano</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (2.50.1) [http://calibre-ebook.com]</dc:contributor>
+        <dc:date>2014-02-11T02:00:00+00:00</dc:date>
+        <dc:description>"O autor neste livro quebra a cronologia linear da historiografia oficial para desnudar o saque ao continente que persiste desde o descobrimento. Analisando os mecanismos de poder, os modos de produção e os sistemas de expropriação, Eduardo Galeano reescreve a história da América Latina e expõe os quinhentos anos de exploração econômica e miséria social. "</dc:description>
+        <dc:publisher>L&amp;PM EDITORES</dc:publisher>
+        <dc:identifier opf:scheme="ISBN">9788525407559</dc:identifier>
+        <dc:language>por</dc:language>
+        <meta content="{&quot;Eduardo Galeano&quot;: &quot;&quot;}" name="calibre:author_link_map"/>
+        <meta content="2016-02-14T18:42:12.325378+00:00" name="calibre:timestamp"/>
+        <meta content="Veias Abertas da América Latina, As" name="calibre:title_sort"/>
+    </metadata>
+    <guide>
+        <reference href="cover.jpg" title="Capas" type="cover"/>
+    </guide>
+</package>

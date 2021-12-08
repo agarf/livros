@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">12</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">eb9612ad-42b3-4eb5-8893-7164815759fe</dc:identifier>
+        <dc:title>Lendas e Narrativas (Tomo II)</dc:title>
+        <dc:creator opf:file-as="Herculano, Alexandre" opf:role="aut">Alexandre Herculano</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (2.50.1) [http://calibre-ebook.com]</dc:contributor>
+        <dc:date>2005-11-04T02:00:00+00:00</dc:date>
+        <dc:identifier opf:scheme="URI">http://www.gutenberg.org/ebooks/17005</dc:identifier>
+        <dc:language>por</dc:language>
+        <dc:subject>Portuguese literature -- 19th century</dc:subject>
+        <meta content="{&quot;Alexandre Herculano&quot;: &quot;&quot;}" name="calibre:author_link_map"/>
+        <meta content="2016-02-14T19:45:21.129992+00:00" name="calibre:timestamp"/>
+        <meta content="Lendas e Narrativas (Tomo II)" name="calibre:title_sort"/>
+    </metadata>
+    <guide>
+        <reference href="cover.jpg" title="Capas" type="cover"/>
+    </guide>
+</package>

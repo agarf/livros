@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">7</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">01eeb52f-d315-4dd7-9323-76f296abf815</dc:identifier>
+        <dc:title>Dom Quixote</dc:title>
+        <dc:creator opf:file-as="Cervantes, Miguel de" opf:role="aut">Cervantes, Miguel de</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (2.50.1) [http://calibre-ebook.com]</dc:contributor>
+        <dc:date>2014-02-04T02:00:00+00:00</dc:date>
+        <dc:publisher>Companhia das Letras</dc:publisher>
+        <dc:identifier opf:scheme="ISBN">9788580865233</dc:identifier>
+        <dc:language>por</dc:language>
+        <meta content="{&quot;Cervantes, Miguel de&quot;: &quot;&quot;}" name="calibre:author_link_map"/>
+        <meta content="2016-02-13T19:38:24.433499+00:00" name="calibre:timestamp"/>
+        <meta content="Dom Quixote" name="calibre:title_sort"/>
+    </metadata>
+    <guide>
+        <reference href="cover.jpg" title="Capas" type="cover"/>
+    </guide>
+</package>

@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">11</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">996cf402-5960-4c1c-b6f0-fc2e0b4be74b</dc:identifier>
+        <dc:title>Sobre fotografia</dc:title>
+        <dc:creator opf:file-as="Sontag, Susan" opf:role="aut">Susan Sontag</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (2.50.1) [http://calibre-ebook.com]</dc:contributor>
+        <dc:date>2015-05-11T03:00:00+00:00</dc:date>
+        <dc:description>&lt;div&gt;&lt;p&gt;&lt;i&gt;Sobre fotografia&lt;/i&gt;, ganhador do National Book Critic Circle Award de 1977, é um livro que fez história no âmbito dos estudos da imagem. Publicado originalmente no Brasil em 1983, reúne seis ensaios escritos na década de 70, em que a romancista e filósofa Susan Sontag analisa a fotografia como fenômeno de civilização desde o aparecimento do daguerreótipo, no século XIX. O resultado é uma história social da &lt;i&gt;visão&lt;/i&gt;, demonstrando seu lugar central na cultura contemporânea.&lt;/p&gt; &lt;p&gt;Sontag extrapola os domínios da técnica da fotografia, enfoque que desliga a prática fotográfica do quadro social que a inventa e a consome. Abrangentes e reflexivas, as análises dialogam com a filosofia, a sociologia, a estética e a arte pictórica. A erudição da autora não se traduz, porém, em hermetismo. Seu estilo é simples, direto, leve e sedutor, marca de uma das mais atuantes intelectuais da atualidade.&lt;/p&gt; &lt;p&gt;""A realidade, como tal, é redefinida pela fotografia"", escreve ela ao discutir as relações entre os acontecimentos e as imagens produzidas a partir deles. Sontag mostra como as noções de fato e representação se embaralham nas sociedades industriais e consumistas, onde """"tudo existe para terminar numa foto"".&lt;/p&gt;&lt;/div&gt;</dc:description>
+        <dc:publisher>Companhia das Letras</dc:publisher>
+        <dc:identifier opf:scheme="MOBI-ASIN">d8bb2b39-b0f8-438d-85a8-e66fc8c44468</dc:identifier>
+        <dc:identifier opf:scheme="ISBN">9788580865790</dc:identifier>
+        <dc:language>por</dc:language>
+        <dc:subject>Filosofia</dc:subject>
+        <dc:subject>Fotografia</dc:subject>
+        <dc:subject>Ensaios</dc:subject>
+        <meta content="{&quot;Susan Sontag&quot;: &quot;&quot;}" name="calibre:author_link_map"/>
+        <meta content="2016-02-14T18:55:59.049788+00:00" name="calibre:timestamp"/>
+        <meta content="Sobre fotografia" name="calibre:title_sort"/>
+    </metadata>
+    <guide>
+        <reference href="cover.jpg" title="Capas" type="cover"/>
+    </guide>
+</package>

@@ -1,0 +1,119 @@
+Module                  Size  Used by
+fuse                  122880  4
+ctr                    16384  2
+ccm                    20480  3
+cpufreq_conservative    16384  0
+cpufreq_powersave      16384  0
+cpufreq_userspace      16384  0
+bnep                   20480  2
+bluetooth             647168  7 bnep
+drbg                   28672  1
+ansi_cprng             16384  0
+ecdh_generic           24576  1 bluetooth
+uinput                 20480  1
+nfsd                  425984  2
+auth_rpcgss            73728  1 nfsd
+nfs_acl                16384  1 nfsd
+nfs                   294912  0
+lockd                 118784  2 nfsd,nfs
+grace                  16384  2 nfsd,lockd
+fscache               385024  1 nfs
+sunrpc                417792  6 nfsd,auth_rpcgss,lockd,nfs_acl,nfs
+loop                   36864  0
+parport_pc             32768  0
+ppdev                  20480  0
+lp                     20480  0
+parport                57344  3 parport_pc,lp,ppdev
+dm_crypt               40960  0
+dm_mod                151552  1 dm_crypt
+uvcvideo              118784  0
+videobuf2_vmalloc      16384  1 uvcvideo
+videobuf2_memops       16384  1 videobuf2_vmalloc
+videobuf2_v4l2         28672  1 uvcvideo
+videobuf2_common       53248  2 videobuf2_v4l2,uvcvideo
+videodev              212992  3 videobuf2_v4l2,uvcvideo,videobuf2_common
+media                  45056  2 videodev,uvcvideo
+arc4                   16384  2
+snd_hda_codec_si3054    16384  1
+snd_hda_codec_realtek   122880  1
+snd_hda_codec_generic    86016  1 snd_hda_codec_realtek
+ath5k                 163840  0
+snd_hda_intel          40960  3
+snd_hda_codec         151552  4 snd_hda_codec_generic,snd_hda_intel,snd_hda_codec_realtek,snd_hda_codec_si3054
+mac80211              835584  1 ath5k
+snd_hwdep              16384  1 snd_hda_codec
+ath                    36864  1 ath5k
+snd_hda_core           86016  5 snd_hda_codec_generic,snd_hda_intel,snd_hda_codec,snd_hda_codec_realtek,snd_hda_codec_si3054
+cfg80211              774144  3 ath,ath5k,mac80211
+snd_pcm               114688  4 snd_hda_intel,snd_hda_codec,snd_hda_codec_si3054,snd_hda_core
+r592                   24576  0
+rfkill                 28672  4 bluetooth,cfg80211
+snd_timer              36864  1 snd_pcm
+memstick               16384  1 r592
+snd                    94208  14 snd_hda_codec_generic,snd_hwdep,snd_hda_intel,snd_hda_codec,snd_hda_codec_realtek,snd_timer,snd_hda_codec_si3054,snd_pcm
+joydev                 24576  0
+sg                     36864  0
+coretemp               16384  0
+evdev                  28672  21
+soundcore              16384  1 snd
+serio_raw              16384  0
+battery                20480  0
+ac                     16384  0
+video                  49152  0
+sis_agp                16384  1
+button                 20480  0
+ext4                  745472  1
+crc16                  16384  2 bluetooth,ext4
+mbcache                16384  1 ext4
+jbd2                  122880  1 ext4
+fscrypto               32768  1 ext4
+ecb                    16384  0
+crypto_simd            16384  0
+cryptd                 28672  1 crypto_simd
+glue_helper            16384  0
+aes_x86_64             20480  2
+btrfs                1409024  0
+zstd_decompress        81920  1 btrfs
+zstd_compress         172032  1 btrfs
+xxhash                 16384  2 zstd_compress,zstd_decompress
+raid10                 57344  0
+raid456               172032  0
+async_raid6_recov      20480  1 raid456
+async_memcpy           16384  2 raid456,async_raid6_recov
+async_pq               16384  2 raid456,async_raid6_recov
+async_xor              16384  3 async_pq,raid456,async_raid6_recov
+async_tx               16384  5 async_pq,async_memcpy,async_xor,raid456,async_raid6_recov
+libcrc32c              16384  2 btrfs,raid456
+crc32c_generic         16384  3
+xor                    24576  2 async_xor,btrfs
+raid6_pq              122880  4 async_pq,btrfs,raid456,async_raid6_recov
+raid1                  45056  0
+raid0                  20480  0
+multipath              16384  0
+linear                 16384  0
+md_mod                167936  6 raid1,raid10,raid0,linear,raid456,multipath
+vmd                    20480  0
+sd_mod                 61440  3
+sr_mod                 28672  0
+cdrom                  65536  1 sr_mod
+ata_generic            16384  0
+sata_sis               16384  2
+sdhci_pci              45056  0
+cqhci                  28672  1 sdhci_pci
+ohci_pci               16384  0
+sdhci                  61440  1 sdhci_pci
+pata_sis               20480  1 sata_sis
+firewire_ohci          45056  0
+psmouse               172032  0
+ehci_pci               16384  0
+ohci_hcd               61440  1 ohci_pci
+ehci_hcd               94208  1 ehci_pci
+mmc_core              176128  3 sdhci,cqhci,sdhci_pci
+firewire_core          81920  1 firewire_ohci
+crc_itu_t              16384  1 firewire_core
+libata                270336  3 ata_generic,pata_sis,sata_sis
+sis190                 28672  0
+mii                    16384  1 sis190
+usbcore               290816  5 ohci_hcd,ehci_pci,uvcvideo,ehci_hcd,ohci_pci
+usb_common             16384  1 usbcore
+scsi_mod              245760  4 sd_mod,libata,sg,sr_mod

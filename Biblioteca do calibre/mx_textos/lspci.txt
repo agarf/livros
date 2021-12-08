@@ -1,0 +1,142 @@
+00:00.0 Host bridge: Silicon Integrated Systems [SiS] 671MX
+	Subsystem: COMPAL Electronics Inc 671MX
+	Flags: bus master, medium devsel, latency 32
+	Memory at d0000000 (32-bit, non-prefetchable) [size=64M]
+	Capabilities: <access denied>
+	Kernel driver in use: agpgart-sis
+	Kernel modules: sis_agp
+
+00:01.0 PCI bridge: Silicon Integrated Systems [SiS] AGP Port (virtual PCI-to-PCI bridge) (prog-if 00 [Normal decode])
+	Flags: bus master, 66MHz, fast devsel, latency 0
+	Bus: primary=00, secondary=01, subordinate=01, sec-latency=0
+	I/O behind bridge: 00009000-00009fff
+	Memory behind bridge: d4000000-d40fffff
+	Prefetchable memory behind bridge: c0000000-cfffffff
+
+00:02.0 ISA bridge: Silicon Integrated Systems [SiS] SiS968 [MuTIOL Media IO] (rev 01)
+	Subsystem: COMPAL Electronics Inc SiS968 [MuTIOL Media IO]
+	Flags: bus master, medium devsel, latency 0
+
+00:02.5 IDE interface: Silicon Integrated Systems [SiS] 5513 IDE Controller (rev 01) (prog-if 80 [ISA Compatibility mode-only controller, supports bus mastering])
+	Subsystem: COMPAL Electronics Inc 5513 IDE Controller
+	Flags: bus master, medium devsel, latency 128, IRQ 16
+	I/O ports at 01f0 [size=8]
+	I/O ports at 03f4
+	I/O ports at 0170 [size=8]
+	I/O ports at 0374
+	I/O ports at 1000 [size=16]
+	Capabilities: <access denied>
+	Kernel driver in use: pata_sis
+	Kernel modules: pata_sis, ata_generic
+
+00:03.0 USB controller: Silicon Integrated Systems [SiS] USB 1.1 Controller (rev 0f) (prog-if 10 [OHCI])
+	Subsystem: COMPAL Electronics Inc USB 1.1 Controller
+	Flags: bus master, medium devsel, latency 32, IRQ 20
+	Memory at d4204000 (32-bit, non-prefetchable) [size=4K]
+	Kernel driver in use: ohci-pci
+	Kernel modules: ohci_pci
+
+00:03.1 USB controller: Silicon Integrated Systems [SiS] USB 1.1 Controller (rev 0f) (prog-if 10 [OHCI])
+	Subsystem: COMPAL Electronics Inc USB 1.1 Controller
+	Flags: bus master, medium devsel, latency 32, IRQ 21
+	Memory at d4205000 (32-bit, non-prefetchable) [size=4K]
+	Kernel driver in use: ohci-pci
+	Kernel modules: ohci_pci
+
+00:03.3 USB controller: Silicon Integrated Systems [SiS] USB 2.0 Controller (prog-if 20 [EHCI])
+	Subsystem: COMPAL Electronics Inc USB 2.0 Controller
+	Flags: bus master, medium devsel, latency 32, IRQ 22
+	Memory at d4206000 (32-bit, non-prefetchable) [size=4K]
+	Capabilities: <access denied>
+	Kernel driver in use: ehci-pci
+	Kernel modules: ehci_pci
+
+00:04.0 Ethernet controller: Silicon Integrated Systems [SiS] 191 Gigabit Ethernet Adapter (rev 02)
+	Subsystem: COMPAL Electronics Inc 191 Gigabit Ethernet Adapter
+	Flags: bus master, medium devsel, latency 0, IRQ 19
+	Memory at d4407800 (32-bit, non-prefetchable) [size=128]
+	I/O ports at 1080 [size=128]
+	Capabilities: <access denied>
+	Kernel driver in use: sis190
+	Kernel modules: sis190
+
+00:05.0 IDE interface: Silicon Integrated Systems [SiS] SATA Controller / IDE mode (rev 03) (prog-if 8f [PCI native mode controller, supports both channels switched to ISA compatibility mode, supports bus mastering])
+	Subsystem: COMPAL Electronics Inc SATA Controller / IDE mode
+	Flags: bus master, medium devsel, latency 32, IRQ 17
+	I/O ports at 1048 [size=8]
+	I/O ports at 103c [size=4]
+	I/O ports at 1040 [size=8]
+	I/O ports at 1038 [size=4]
+	I/O ports at 1020 [size=16]
+	Capabilities: <access denied>
+	Kernel driver in use: sata_sis
+	Kernel modules: sata_sis, ata_generic
+
+00:06.0 PCI bridge: Silicon Integrated Systems [SiS] PCI-to-PCI bridge (prog-if 00 [Normal decode])
+	Flags: bus master, fast devsel, latency 0, IRQ 18
+	Bus: primary=00, secondary=02, subordinate=02, sec-latency=0
+	I/O behind bridge: 00002000-00002fff
+	Memory behind bridge: d4100000-d41fffff
+	Prefetchable memory behind bridge: 00000000b0000000-00000000b01fffff
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+
+00:07.0 PCI bridge: Silicon Integrated Systems [SiS] PCI-to-PCI bridge (prog-if 00 [Normal decode])
+	Flags: fast devsel, IRQ 18
+	Bus: primary=00, secondary=04, subordinate=05, sec-latency=0
+	I/O behind bridge: 00003000-00004fff
+	Memory behind bridge: dc000000-dfffffff
+	Prefetchable memory behind bridge: 00000000b0200000-00000000b03fffff
+	Capabilities: <access denied>
+	Kernel driver in use: pcieport
+
+00:0b.0 FireWire (IEEE 1394): Ricoh Co Ltd R5C832 IEEE 1394 Controller (rev 05) (prog-if 10 [OHCI])
+	Subsystem: COMPAL Electronics Inc R5C832 IEEE 1394 Controller
+	Flags: bus master, medium devsel, latency 64, IRQ 18
+	Memory at d4407000 (32-bit, non-prefetchable) [size=2K]
+	Capabilities: <access denied>
+	Kernel driver in use: firewire_ohci
+	Kernel modules: firewire_ohci
+
+00:0b.1 SD Host controller: Ricoh Co Ltd R5C822 SD/SDIO/MMC/MS/MSPro Host Adapter (rev 22)
+	Subsystem: COMPAL Electronics Inc R5C822 SD/SDIO/MMC/MS/MSPro Host Adapter
+	Flags: bus master, medium devsel, latency 64, IRQ 19
+	Memory at d4407c00 (32-bit, non-prefetchable) [size=256]
+	Capabilities: <access denied>
+	Kernel driver in use: sdhci-pci
+	Kernel modules: sdhci_pci
+
+00:0b.2 System peripheral: Ricoh Co Ltd R5C592 Memory Stick Bus Host Adapter (rev 12)
+	Subsystem: COMPAL Electronics Inc R5C592 Memory Stick Bus Host Adapter
+	Flags: bus master, medium devsel, latency 64, IRQ 19
+	Memory at d4408400 (32-bit, non-prefetchable) [size=256]
+	Capabilities: <access denied>
+	Kernel driver in use: r592
+	Kernel modules: r592
+
+00:0f.0 Audio device: Silicon Integrated Systems [SiS] Azalia Audio Controller
+	Subsystem: COMPAL Electronics Inc Azalia Audio Controller
+	Flags: bus master, medium devsel, latency 0, IRQ 23
+	Memory at d4200000 (32-bit, non-prefetchable) [size=16K]
+	Capabilities: <access denied>
+	Kernel driver in use: snd_hda_intel
+	Kernel modules: snd_hda_intel
+
+01:00.0 VGA compatible controller: Silicon Integrated Systems [SiS] 771/671 PCIE VGA Display Adapter (rev 10) (prog-if 00 [VGA controller])
+	Subsystem: COMPAL Electronics Inc 771/671 PCIE VGA Display Adapter
+	Flags: 66MHz, medium devsel, IRQ 9
+	BIST result: 00
+	Memory at c0000000 (32-bit, prefetchable) [size=256M]
+	Memory at d4000000 (32-bit, non-prefetchable) [size=128K]
+	I/O ports at 9000 [size=128]
+	[virtual] Expansion ROM at 000c0000 [disabled] [size=128K]
+	Capabilities: <access denied>
+
+02:00.0 Ethernet controller: Qualcomm Atheros AR242x / AR542x Wireless Network Adapter (PCI-Express) (rev 01)
+	Subsystem: Gigabyte Technology Co., Ltd AR242x / AR542x Wireless Network Adapter (PCI-Express)
+	Flags: bus master, fast devsel, latency 0, IRQ 18
+	Memory at d4100000 (64-bit, non-prefetchable) [size=64K]
+	Capabilities: <access denied>
+	Kernel driver in use: ath5k
+	Kernel modules: ath5k
+

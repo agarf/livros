@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+    <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+        <dc:identifier opf:scheme="calibre" id="calibre_id">5</dc:identifier>
+        <dc:identifier opf:scheme="uuid" id="uuid_id">5f98f194-3de1-4464-9f8a-07bf02e0ac88</dc:identifier>
+        <dc:title>A Biblia da Humanidade</dc:title>
+        <dc:creator opf:file-as="Quental, Antero de" opf:role="aut">Antero de Quental</dc:creator>
+        <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (2.50.1) [http://calibre-ebook.com]</dc:contributor>
+        <dc:date>2010-06-18T03:00:00+00:00</dc:date>
+        <dc:identifier opf:scheme="URI">http://www.gutenberg.org/ebooks/32868</dc:identifier>
+        <dc:language>por</dc:language>
+        <dc:subject>Religion</dc:subject>
+        <meta content="{&quot;Antero de Quental&quot;: &quot;&quot;}" name="calibre:author_link_map"/>
+        <meta content="2016-02-12T12:16:22.106097+00:00" name="calibre:timestamp"/>
+        <meta content="Biblia da Humanidade, A" name="calibre:title_sort"/>
+    </metadata>
+    <guide>
+        <reference href="cover.jpg" title="Capas" type="cover"/>
+    </guide>
+</package>
